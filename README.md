@@ -11,8 +11,9 @@ SDL Libraries used (i686-w64-mingw32 architecture):
 - SDL2_image-2.0.3
 - SDL2_mixer-2.0.2
 - SDL2_ttf-2.0.14
+
 This means we use the following linker flags to specify the libraries we need:
--lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
+`-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer`
 
 The Makefile assumes these file path locations (modify to reflect your setup): 
 - Include path to the SDL include folder (header files) is C:\mingw_dev_lib\include\SDL2 
