@@ -1,8 +1,8 @@
 #OBJS specifies which files to compile as part of the project (input)
-OBJS = src\lesson21.cpp
+OBJS = src\lesson01.cpp
 
 #OBJ_NAME specifies the name of our exectuable (output)
-OBJ_NAME = release\lesson21.exe
+OBJ_NAME = release\lesson01.exe
 
 #CC specifies which compiler we're using
 CC = g++
